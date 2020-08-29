@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2020-08-28T17:16:32.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="fgW4_fkZWA-afFkdhxgI" version="13.6.5" type="github">
+  <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
+    <mxGraphModel dx="2480" dy="-340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="644" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;Métrica obtida ao final da interação&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#23445D;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1709.9989473684213" y="2369.998245614034" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="645" value="" style="triangle;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=17;fontColor=#23445d;align=center;rotation=90;gradientColor=none;flipV=1;flipH=1;opacity=20;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="309.5" y="2782.6666666666665" width="72" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="646" value="&lt;font style=&quot;font-size: 23px&quot;&gt;CLIMATE&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#ffffff;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445D;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="59.99894736842111" y="2059.9966666666664" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="647" value="&lt;font style=&quot;font-size: 23px&quot;&gt;PRODUCERS&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="319.9978947368422" y="1909.9995614035086" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="648" value="&lt;font style=&quot;font-size: 23px&quot;&gt;OMNIVORE&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="649.9978947368422" y="1909.9953508771928" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="649" value="&lt;font style=&quot;font-size: 23px&quot;&gt;HERBIVORE&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="69.65894736842114" y="2899.998245614034" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="650" value="&lt;font style=&quot;font-size: 23px&quot;&gt;CARNIVORE&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445d;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="2619.995350877193" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="651" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;DECOMPOSERS&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#23445D;fillColor=#ffffff;gradientColor=none;fontFamily=Helvetica;fontSize=23;fontColor=#23445D;align=center;strokeWidth=3;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="60.000000000000114" y="2339.999561403509" width="311.84210526315786" height="259.86842105263156" as="geometry" />
+        </mxCell>
+        <mxCell id="6v3RUgltI-rzKn28utft-657" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;Pergunta geradora&lt;/h1&gt;&lt;p style=&quot;font-size: 25px&quot;&gt;Como podemos prever terremotos?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=25;labelBackgroundColor=#ffffff;labelBorderColor=#4D4D4D;spacingLeft=0;spacingRight=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1680" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6v3RUgltI-rzKn28utft-658" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.375;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="1" source="647" target="647">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
