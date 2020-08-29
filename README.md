@@ -6,7 +6,14 @@ A equipe **Carne de Pescoço** está, atualmente, enfrentando o desafio "[Richte
 
 Aqui, registraremos nossas conversas. :relaxed:
 
-### 23/08/2020
+### 29/08/2020
+
+> 1. Revisamos a boa prática de trabalho em equipe de sempre atualizar os repositórios antes de iniciar o trabalho e depois de finalizar o trabalho.
+> 2. Vimos os sites de práticas de programação [URI Judge](https://www.urionlinejudge.com.br/) e [HackerRank](https://www.hackerrank.com/).
+> 3. Explorar os Jupyter notebook e alguns atalhos de teclado.
+> 4. Exploramos um pouco os dados (describe, info, cardinalidade).
+
+### 22/08/2020
 
 > 1. Fizemos o primeiro commit do Tsu e agora temos a mesma estrutura de pastas na equipe.
 > 2. Tsu já tinha instalado o Anaconda.
