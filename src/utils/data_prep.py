@@ -69,7 +69,7 @@ class data_prep:
             matriz_cardialidade.append([i, len(df_temporario[i].unique()), sorted(df_temporario[i].unique())])
             
         matriz_cardialidade = pd.DataFrame(matriz_cardialidade, columns=["Atributo", "Cardinalidade", "Valores"])
-        matriz_cardialidade.sort_values(by="Cardinalidade", inplace=True, ascending=True)
+        matriz_cardialidade.sort_values(by=["Cardinalidade", "Atributo"], inplace=True, ascending=True)
         
         return matriz_cardialidade
     
