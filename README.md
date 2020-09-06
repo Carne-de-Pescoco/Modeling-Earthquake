@@ -6,6 +6,16 @@ A equipe **Carne de Pescoço** está, atualmente, enfrentando o desafio "[Richte
 
 Aqui, registraremos nossas conversas. :relaxed:
 
+### 05/09/2020
+
+> 1. No meio da semana, decidimos cancelar a conversa desse sábado. :pensive:
+> 1. Combinamos de continuar a fazer os desafios de programação e o curso do Prof. Gustavo Guanabara.
+> 1. Gustavo disse que aproveitaria para continuar mexendo no projeto, para depois explicar a todos.
+>
+> **Para próxima semana:**
+>
+> - Gustavo e Tsu combinaram de ter mais uma conversa no meio da semana (Quartas às 20h30). :telephone:
+
 ### 29/08/2020
 
 > 1. Revisamos a boa prática de trabalho em equipe de sempre atualizar os repositórios antes de iniciar o trabalho e depois de finalizar o trabalho.
@@ -18,8 +28,6 @@ Aqui, registraremos nossas conversas. :relaxed:
 >
 > - Eu e Tsu praticaremos usando o curso do Prof. Gustavo Guanabara no [Curso em Vídeo](https://www.cursoemvideo.com/) e, se quiser, os sites [URI Judge](https://www.urionlinejudge.com.br/) e [HackerRank](https://www.hackerrank.com/). :star:
 > - Falaremos um pouco sobre a exploração dos dados do desafio e DataViz usando, inclusive, outras ferramentas.
-> 
-
 
 ### 22/08/2020
 
