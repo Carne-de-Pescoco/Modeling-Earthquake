@@ -2,9 +2,25 @@
 
 A equipe **Carne de Pescoço** está, atualmente, enfrentando o desafio "[Richter's Predictor: Modeling Earthquake Damage](https://www.drivendata.org/competitions/57/nepal-earthquake/page/136/)" do Driven Data. :muscle:
 
+## Corpo de conhecimento
+
+Para nosso crescimento em conjunto, criamos uma [página com sugestões de materiais](https://github.com/Carne-de-Pescoco/body_of_knowledge#body-of-knowledge).
+
+
 ## Diário de Bordo
 
 Aqui, registraremos nossas conversas. :relaxed:
+
+### 12/09/2020
+
+> 1. @Gustavo Suto mostrou que usará o LightGBM e o Random Forest como modelos para os próximos estágios de engenharia e seleção de atributos. Devido ao tempo de execução.
+> 1. @Gustavo Suto mostrou um [mapa mental indicando a relação de diversos termos dentro do campo](https://github.com/guyrux/udemy_ML_AZ#minhas-anota%C3%A7%C3%B5es-do-curso).
+> 1. Passaremos a usar mapas mentais para alinhar os temas discutidos a cada semana.
+> 
+> **Para próxima semana:**
+>
+> - Faremos uma votação de temas para serem discutidos a cada encontro de sábado.
+> - @Gustavo Suto 
 
 ### 05/09/2020
 
