@@ -139,3 +139,10 @@ cython_debug/
 
 # VSCode
 .
+
+# models files
+mlruns
+*/catboost_info/
+
+# power bi
+*.pbix

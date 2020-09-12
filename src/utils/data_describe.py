@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 16 22:36:39 2019
+class DataDescribe:
+    """
+    Created on Sun Jun 16 22:36:39 2019
 
-@author: Gustavo Suto 
-"""
-class data_prep:
+    @author: Gustavo Suto 
+    """
+    import pandas as pd
 
-    
-    
-    def breveDescricao(df):
+    def __init__(self):
+        pass
+
+    def breve_descricao(df):
         """
         Função breveDescricao
         
@@ -27,7 +29,7 @@ class data_prep:
     
     
     
-    def serieNulos(df, corte = 50):
+    def serie_nulos(df, corte = 50):
         """
          responsável: Suto
          data: 04/05/19
@@ -46,10 +48,17 @@ class data_prep:
         Argumentos: Um DataFrame e um corte em porcentagem (valor padrão é 50%).
         
         """
-        serie = (df.isnull().sum().sort_values(ascending=False)/len(df))*100
-        return (serie[serie > corte], ("-> {} atributos/features/campos possuem mais de {}% de valores nulos.".
-                format(len(serie[serie > corte]),corte)))
+        
+        serie = (100*df.isnull().sum().sort_values(ascending=False)/len(df))
+        
+        serie_cortada = serie[serie > corte]
+
+        print(f"{len(serie_cortada)} atributos/features/campos possuem mais de {corte}% de valores nulos.")
+        
+        return serie_cortada
     
+
+
     def cardinalidade(df):
         """
         responsável: suto
@@ -60,20 +69,22 @@ class data_prep:
                     analisar.
         """
         import pandas as pd
-        
+
         df_temporario = df.select_dtypes(exclude=["float64"])
 
         matriz_cardialidade = []
 
-        for i, coluna in df_temporario.items():
-            matriz_cardialidade.append([i, len(df_temporario[i].unique()), sorted(df_temporario[i].unique())])
-            
+        for i, coluna in enumerate(df_temporario.columns):
+            matriz_cardialidade.append([coluna, len(df_temporario[coluna].unique()), sorted(df_temporario[coluna].unique())])
+
         matriz_cardialidade = pd.DataFrame(matriz_cardialidade, columns=["Atributo", "Cardinalidade", "Valores"])
         matriz_cardialidade.sort_values(by=["Cardinalidade", "Atributo"], inplace=True, ascending=True)
         
         return matriz_cardialidade
     
-    def cardinalidadeComDescricao(df):
+
+
+    def cardinalidade_com_descricao(df):
         """
         responsável: suto
         data: 27/10/19
@@ -82,8 +93,7 @@ class data_prep:
             float); e
             (2) O segundo com os atributos não numéricos e sua respectiva
             cardinalidade em ordem crescente. 
-        argumentos: somente 01 (um) argumento, o DataFrame que se deseja
-                    analisar.
+        argumentos: somente 01 (um) argumento, o DataFrame que se deseja analisar.
         """
         import pandas as pd
         
@@ -100,7 +110,7 @@ class data_prep:
         return matriz_cardialidade.T, df.describe()
     
     
-    
+    # TODO: remover essa função e colocar isolada numa outra classe.
     def r2_ajustado(x, y, y_pred):
         """
         responsável: Suto
@@ -109,6 +119,8 @@ class data_prep:
         r2_ajustado retorna o R² Ajustado e recebe como argumento as séries com
         o valor alvo teste e o predito.
         """
+        from sklearn.metrics import r2_score
+        
         n = x.shape[0]
         k = x.shape[1]
         return (1-((n-1)/(n-(k+1)))*(1-r2_score(y, y_pred)))
