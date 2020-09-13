@@ -142,7 +142,9 @@ cython_debug/
 
 # models files
 mlruns
-*/catboost_info/
+src/catboost_info
+src/catboost_info/
+src/catboost_info/*
 
 # power bi
 *.pbix
