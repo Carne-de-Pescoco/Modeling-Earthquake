@@ -11,18 +11,23 @@ Para nosso crescimento em conjunto, criamos uma [página com sugestões de mater
 
 Aqui, registraremos nossas conversas. :relaxed:
 
-### 12/09/2020
+### 16/09/2020 - Quarta
 
-> 1. @Gustavo Suto mostrou que usará o LightGBM e o Random Forest como modelos para os próximos estágios de engenharia e seleção de atributos. Devido ao tempo de execução.
-> 1. @Gustavo Suto mostrou um [mapa mental indicando a relação de diversos termos dentro do campo](https://github.com/guyrux/udemy_ML_AZ#minhas-anota%C3%A7%C3%B5es-do-curso).
+> 1. Discutimos o que foi alterado para obtermos o incremento na métrica de avalição do modelo (f1-micro de 0,505 para 0,701 no teste da plataforma Driven Data).
+> 1. Conversamos sobre a técnica [One Hot Encoding](https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02).
+> 1. Discutimos acerca da metodologia CRISP-DM e de uma proposta descrita no *preprint* [Towards CRISP-ML(Q): A Machine Learning Process Model with Quality Assurance Methodology](https://arxiv.org/pdf/2003.05155.pdf). Seguiremos com as definções deste *preprint*.
+
+### 12/09/2020 - Sábado
+
+> 1. Discutimos que usaremos o LightGBM e o Random Forest como modelos para os próximos estágios de engenharia e seleção de atributos. Devido ao tempo de execução.
+> 1. Gustavo Suto mostrou um [mapa mental indicando a relação de diversos termos dentro do campo](https://github.com/guyrux/udemy_ML_AZ#minhas-anota%C3%A7%C3%B5es-do-curso).
 > 1. Passaremos a usar mapas mentais para alinhar os temas discutidos a cada semana.
 > 
 > **Para próxima semana:**
 >
 > - Faremos uma votação de temas para serem discutidos a cada encontro de sábado.
-> - @Gustavo Suto 
 
-### 05/09/2020
+### 05/09/2020 - Sábado
 
 > 1. No meio da semana, decidimos cancelar a conversa desse sábado. :pensive:
 > 1. Combinamos de continuar a fazer os desafios de programação e o curso do Prof. Gustavo Guanabara.
@@ -32,7 +37,7 @@ Aqui, registraremos nossas conversas. :relaxed:
 >
 > - Gustavo e Tsu combinaram de ter mais uma conversa no meio da semana (Quartas às 20h30). :telephone:
 
-### 29/08/2020
+### 29/08/2020 - Sábado
 
 > 1. Revisamos a boa prática de trabalho em equipe de sempre atualizar os repositórios antes de iniciar o trabalho e depois de finalizar o trabalho.
 > 2. Vimos os sites de práticas de programação [URI Judge](https://www.urionlinejudge.com.br/) e [HackerRank](https://www.hackerrank.com/). :trophy:
@@ -45,7 +50,7 @@ Aqui, registraremos nossas conversas. :relaxed:
 > - Eu e Tsu praticaremos usando o curso do Prof. Gustavo Guanabara no [Curso em Vídeo](https://www.cursoemvideo.com/) e, se quiser, os sites [URI Judge](https://www.urionlinejudge.com.br/) e [HackerRank](https://www.hackerrank.com/). :star:
 > - Falaremos um pouco sobre a exploração dos dados do desafio e DataViz usando, inclusive, outras ferramentas.
 
-### 22/08/2020
+### 22/08/2020 - Sábado
 
 > 1. Fizemos o primeiro commit do Tsu e agora temos a mesma estrutura de pastas na equipe.
 > 2. Tsu já tinha instalado o Anaconda.
