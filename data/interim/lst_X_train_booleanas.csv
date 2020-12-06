@@ -13,3 +13,11 @@
 11,has_superstructure_cement_mortar_stone
 12,has_superstructure_rc_engineered
 13,has_superstructure_other
+14,has_secondary_use_rental
+15,has_secondary_use_other
+16,has_secondary_use_industry
+17,has_secondary_use_institution
+18,has_secondary_use_school
+19,has_secondary_use_health_post
+20,has_secondary_use_gov_office
+21,has_secondary_use_use_police
